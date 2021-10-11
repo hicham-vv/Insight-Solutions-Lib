@@ -300,13 +300,13 @@ This library contains resistors</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMD-RESISTOS" prefix="R">
+<deviceset name="SMD-RESISTORS" prefix="R">
 <description>&lt;h3&gt;smd Resistors &lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0402-1/16W" package="0402-1/16W">
+<device name="-0402-1/16W" package="0402-1/16W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -315,7 +315,7 @@ This library contains resistors</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0402-1/16W-TIGHT" package="0402-1/16W-TIGHT">
+<device name="-0402-1/16W-TIGHT" package="0402-1/16W-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -324,7 +324,7 @@ This library contains resistors</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0603-1/10W" package="0603-1/10W">
+<device name="-0603-1/10W" package="0603-1/10W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -333,7 +333,7 @@ This library contains resistors</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805-1/8W" package="0805-1/8W">
+<device name="-0805-1/8W" package="0805-1/8W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -342,7 +342,7 @@ This library contains resistors</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206-1/4W" package="1206-1/4W">
+<device name="-1206-1/4W" package="1206-1/4W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -351,7 +351,7 @@ This library contains resistors</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1210-1/2W" package="1210-1/2W">
+<device name="-1210-1/2W" package="1210-1/2W">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
