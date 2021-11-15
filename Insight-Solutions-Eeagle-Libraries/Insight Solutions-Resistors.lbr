@@ -300,7 +300,7 @@ This library contains resistors</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMD-RESISTORS" prefix="R">
+<deviceset name="SMD-RESISTORS" prefix="R" uservalue="yes">
 <description>&lt;h3&gt;smd Resistors &lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
